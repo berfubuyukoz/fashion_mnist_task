@@ -1,6 +1,6 @@
 # fashion_mnist_task
 
-#### TODO:
+### TODO:
 
 - Currently fashion-mnist data folder cannot be found in the container. Handle data management issue in Docker - see volumes etc.)
 
@@ -9,11 +9,11 @@
 This is the Dockerfile for my program which trains a Neural Network model that classifies Fashion-MNIST data. 
 Use this Dockerfile to create image that has my Ipython Notebook code.
 
-#### Requirements to use this Dockerfile:
+### Requirements to use this Dockerfile:
 
 [Docker](https://www.docker.com/)
 
-#### Instructions to run the app:
+### Instructions to run the app:
 
 - Download the Dockerfile to your computer.
 - In order to build the image run the following command from the parent directory of the Dockerfile.
