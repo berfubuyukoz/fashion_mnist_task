@@ -2,7 +2,7 @@
 
 ### TODO:
 
-- Currently fashion-mnist data folder cannot be found in the container. Handle data management issue in Docker - see volumes etc.)
+- Currently fashion-mnist data folder cannot be found in the container. Handle data management issue in Docker - see volumes etc.
 
 --
 
