@@ -22,8 +22,8 @@ Use this Dockerfile to create image that has an Ipython Notebook code.
 
 - Download the Dockerfile to your computer.
 - Download the Fashion-MNIST data from [here](https://www.kaggle.com/zalando-research/fashionmnist).
-- Put Dockerfile and the data under a folder named "fashion_mnist_task".
-- Cd to "fashion_mnist_task" folder.
+- Put Dockerfile and the data under a folder named **fashion_mnist_task**.
+- Cd to **fashion_mnist_task** folder.
 - In order to build the image run the following command (the dot at the end is included in the command): 
 
       docker build --tag=any-tag-name .
