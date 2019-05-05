@@ -13,12 +13,12 @@
 This is the Dockerfile for a program which trains a Neural Network model that classifies Fashion-MNIST data. 
 Use this Dockerfile to create image that has an Ipython Notebook code.
 
-### Requirements to use this Dockerfile:
+## Requirements to use this Dockerfile:
 
 - [Docker](https://www.docker.com/)
 - [Fashion-MNIST data](https://www.kaggle.com/zalando-research/fashionmnist)
 
-### Instructions to run the app:
+## Instructions to run the app:
 
 - Download the Dockerfile to your computer.
 - Download the Fashion-MNIST data from [here](https://www.kaggle.com/zalando-research/fashionmnist).
