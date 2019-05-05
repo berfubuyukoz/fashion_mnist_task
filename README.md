@@ -15,8 +15,8 @@ Use this Dockerfile to create image that has an Ipython Notebook code.
 
 ### Requirements to use this Dockerfile:
 
-[Docker](https://www.docker.com/)
-[Fashion-MNIST data](https://www.kaggle.com/zalando-research/fashionmnist)
+- [Docker](https://www.docker.com/)
+- [Fashion-MNIST data](https://www.kaggle.com/zalando-research/fashionmnist)
 
 ### Instructions to run the app:
 
