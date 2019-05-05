@@ -35,7 +35,7 @@ Use this Dockerfile to create image that has my Ipython Notebook code.
 You can now view and run (read-only) the Ipython Notebook.
 
 ## References
-[Docker](https://www.docker.com/)
-[Fashion-MNIST](https://www.kaggle.com/zalando-research/fashionmnist)
+- [Docker](https://www.docker.com/)
+- [Fashion-MNIST](https://www.kaggle.com/zalando-research/fashionmnist)
 
 
