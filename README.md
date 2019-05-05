@@ -1,4 +1,4 @@
-# fashion_mnist_task
+# Classifying Fashion-MNIST data
 
 ### TODO:
 
