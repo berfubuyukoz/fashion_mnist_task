@@ -26,12 +26,6 @@ Use this Dockerfile to create image that has an Ipython Notebook code.
 - Open browser, write localhost:8888/?token=<token>
 
 where <token> is the token appeared on terminal.
-
-      jupiter-notebook
-
-You can now view and run notebook.
-
-- Control + C to exit jupyter.
  
 ## References
 - [Docker](https://www.docker.com/)
