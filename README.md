@@ -9,29 +9,6 @@ _I trained several models (of DNN and CNN type). Best model is the CNN with drop
 ---
 
 This is a program which trains a Neural Network model that classifies Fashion-MNIST data. 
-Follow the steps below to use the Dockerfile and create image that has an Ipython Notebook code. 
-
-## Requirements to use this Dockerfile:
-
-- [Docker](https://www.docker.com/)
-
-## Instructions to run the app:
-
-- Clone the repository into your local.
-      git clone https://github.com/berfubuyukoz/fashion_mnist_task.git
-- Make sure you are in the project directory, aka, **fashion_mnist_task**
-- In order to build the image run the following command (mind the dot at the end of the command): This will take 1-2 minutes.
-
-      docker build --tag=fmnist .
-
-- Run docker image on port 8888
-
-      docker run -d -v /$(pwd)/:/home/jovyan/work -p 8888:8888 fmnist start-notebook.sh --NotebookApp.token=''  
-
-      
-- Open browser, write localhost:8888/?token=<token>
-
-where <token> is the token appeared on terminal.
       
 - To train models, run **fashion_mnist_train.ipynb**
 - To test models, run **fashion_mnist_test.ipynb**
@@ -54,7 +31,6 @@ where <token> is the token appeared on terminal.
 
  
 ## References
-- [Docker](https://www.docker.com/)
 - [Fashion-MNIST](https://research.zalando.com/welcome/mission/research-projects/fashion-mnist/)
 - [Fashion-MNIST Kaggle challenge](https://www.kaggle.com/zalando-research/fashionmnist)
 
