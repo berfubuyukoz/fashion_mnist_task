@@ -6,8 +6,8 @@ _Outputs of the best scoring model can be found under_ **outfiles/cnn2_model_out
 
 ---
 
-This is the Dockerfile for a program which trains a Neural Network model that classifies Fashion-MNIST data. 
-Use this Dockerfile to create image that has an Ipython Notebook code.
+This is a program which trains a Neural Network model that classifies Fashion-MNIST data. 
+Follow the steps below to use the Dockerfile and create image that has an Ipython Notebook code. 
 
 ## Requirements to use this Dockerfile:
 
