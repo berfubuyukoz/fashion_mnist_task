@@ -54,6 +54,5 @@ where <token> is the token appeared on terminal.
 ## References
 - [Docker](https://www.docker.com/)
 - [Fashion-MNIST](https://research.zalando.com/welcome/mission/research-projects/fashion-mnist/)
-
-
+- [Fashion-MNIST Kaggle challenge](https://www.kaggle.com/zalando-research/fashionmnist)
 
