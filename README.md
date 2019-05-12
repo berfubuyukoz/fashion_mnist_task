@@ -4,6 +4,8 @@
 
 _I trained several models (of DNN and CNN type). Best model is the CNN with dropout layers, with accuracy 0.91, cross entropy loss 0.26. Please see **outfiles/cnn2_model_out** for details. To reproduce the results, please read below and run notebooks._
 
+**Note:** There are 6 different models. You can pick one and train, then test. Training takes about 5-6 minutes on average. It is also possible to test saved models under the directory **saved_models** without training. For this you won't need to run the notebook **fashion_mnist_train.ipynb**. Please read below for details.
+
 ---
 
 This is a program which trains a Neural Network model that classifies Fashion-MNIST data. 
