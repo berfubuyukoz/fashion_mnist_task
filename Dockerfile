@@ -10,3 +10,4 @@ COPY . /fashion_mnist_task
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 USER root
 RUN /bin/bash -c 'chmod -R 777 ./'
+USER jovyan
