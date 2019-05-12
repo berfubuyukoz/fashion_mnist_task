@@ -1,9 +1,5 @@
 # Classifying Fashion-MNIST data
 
-### TODO:
-
-- Ipynb is opened in readonly.
-
 ---
 
 This is the Dockerfile for a program which trains a Neural Network model that classifies Fashion-MNIST data. 
@@ -20,14 +16,16 @@ Use this Dockerfile to create image that has an Ipython Notebook code.
 - Cd to project directory, aka, **fashion_mnist_task**.
 - In order to build the image run the following command (the dot at the end is included in the command): 
 
-      docker build --tag=f-mnist .
+      docker build --tag=fmnist .
 
-- Run docker image on port 8888 with tty mode active
+- Run docker image on port 8888
 
-      docker run -d -p 8888:8888 f-mnist start-notebook.sh --NotebookApp.password='sha1:74ba40f8a388:c913541b7ee99d15d5ed31d4226bf7838f83a50e'
+      docker run -d -v /$(pwd)/:/home/jovyan/work -p 8888:8888 fmnist start-notebook.sh --NotebookApp.token=''
 
       
-- Type on bash:
+- Open browser, write localhost:8888/?token=<token>
+
+where <token> is the token appeared on terminal.
 
       jupiter-notebook
 
