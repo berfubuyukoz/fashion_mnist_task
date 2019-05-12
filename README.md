@@ -20,13 +20,13 @@ Follow the steps below to use the Dockerfile and create image that has an Ipytho
 - Clone the repository into your local.
       git clone https://github.com/berfubuyukoz/fashion_mnist_task.git
 - Make sure you are in the project directory, aka, **fashion_mnist_task**
-- In order to build the image run the following command (mind the dot at the end of the command): 
+- In order to build the image run the following command (mind the dot at the end of the command): This will take 1-2 minutes.
 
       docker build --tag=fmnist .
 
 - Run docker image on port 8888
 
-      docker run -d -v /$(pwd)/:/home/jovyan/work -p 8888:8888 fmnist start-notebook.sh --NotebookApp.token='' 
+      docker run -d -v /$(pwd)/:/home/jovyan/work -p 8888:8888 fmnist start-notebook.sh --NotebookApp.token=''  
 
       
 - Open browser, write localhost:8888/?token=<token>
