@@ -34,7 +34,7 @@ where <token> is the token appeared on terminal.
 - To train models, run **fashion_mnist_train.ipynb**
 - To test models, run **fashion_mnist_test.ipynb**
 
-- **fashion_mnist_train.ipynb** create 6 different Neural Network models. One is DNN, others are CNN. Each have their own index (Like a catalog). Specify CURRENT_MODEL_IDX to the model you want to train. On default, the CNN model with dropout is trained. (It is the most successful model among all.)
+- **fashion_mnist_train.ipynb** creates 6 different Neural Network models. One is DNN, others are CNN. Each have their own index (Like a catalog). Specify CURRENT_MODEL_IDX to the model you want to train. On default, the CNN model with dropout is trained. (It is the most successful model among all.)
 
 - You can skip training models and test saved models which are under the **saved models** directory.
 **fashion_mnist_test.ipynb** reads a model from file and tests it on the test data. Specify CURRENT_MODEL_IDX to the model you want to test. Code assumes the model file exists. On default, the CNN model with dropout is test. (It is the most successful model among all.)
