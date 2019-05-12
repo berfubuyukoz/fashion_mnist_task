@@ -1,5 +1,4 @@
-#minimal-notebook has only Jupyter and Python
-FROM jupyter/minimal-notebook
+FROM gaarv/jupyter-keras
 
 # Set the working directory to /fashion_mnist_task
 WORKDIR /fashion_mnist_task
