@@ -9,6 +9,3 @@ COPY . /fashion_mnist_task
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
-
-
-
