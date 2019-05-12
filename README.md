@@ -2,7 +2,7 @@
 
 ---
 
-_Outputs of the best scoring model can be found under_ **outfiles/cnn2_model_out**. _You can see: model summary, score table, confusion matrix, and model training history as separate files._
+_I trained several models (of DNN and CNN type). Best model is the CNN with dropout layers, with accuracy 0.91, cross entropy loss 0.26. Please see **outfiles/cnn2_model_out** for details. To reproduce the results, please read below and run notebooks._
 
 ---
 
@@ -34,12 +34,12 @@ where <token> is the token appeared on terminal.
 - To train models, run **fashion_mnist_train.ipynb**
 - To test models, run **fashion_mnist_test.ipynb**
 
-- **fashion_mnist_train.ipynb** creates 6 different Neural Network models. One is DNN, others are CNN. Each have their own index (Like a catalog). Specify CURRENT_MODEL_IDX to the model you want to train. On default, the CNN model with dropout is trained. (It is the most successful model among all.)
+- **fashion_mnist_train.ipynb** creates 6 different Neural Network models. One is DNN, others are CNN. Each have their own index (Like a catalog). Specify CURRENT_MODEL_IDX to the model you want to train. On default, the CNN model with dropout is trained (CURRENT_MODEL_IDX=2). It is the most successful model among all. (Accuracy: 0.91, Cross Entropy Loss: 0.26)
 
 - You can skip training models and test saved models which are under the **saved models** directory.
 **fashion_mnist_test.ipynb** reads a model from file and tests it on the test data. Specify CURRENT_MODEL_IDX to the model you want to test. Code assumes the model file exists. On default, the CNN model with dropout is test. (It is the most successful model among all.)
 
-- There are 3 pretrained models: DNN, CNN without dropout, CNN with dropout. One can see that CNN outperforms DNN, CNN without dropout overfits, and CNN with dropout avoids overfitting. 
+- There are 3 pretrained models: DNN, CNN without dropout, CNN with dropout. Their CURRENT_MODEL_IDX is 0,1, and 2, respectively. One can see that CNN outperforms DNN, CNN without dropout overfits, and CNN with dropout avoids overfitting. 
 
 - You can set CURRENT_MODEL_IDX to 0, 1 or 2; and test right away in **fashion_mnist_test.ipynb**.
 - Output files will be generated under **outfiles** directory. 
